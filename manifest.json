@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Site Blocker",
+  "version": "1.0",
+  "description": "Block specific sites to stay focused",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "all_frames": false,
+      "match_origin_as_fallback": false,
+      "match_about_blank": false,
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    }
+  ]
+}
