@@ -1,6 +1,6 @@
 # Site Blocker
 
-This is a chrome extension to block specific sites.
+This is a chrome extension to block specific urls (not every urls under a site) to prevent doomscrolling.
 
 ## Why yet another site blocker
 There are existing solutions like the following.
